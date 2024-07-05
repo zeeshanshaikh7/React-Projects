@@ -27,7 +27,7 @@ function App() {
   const copyToCB = useCallback(() => {
     passRef.current?.select();
     window.navigator.clipboard.writeText(password);
-    alert('Password: '+ password + " copied to clipboard")
+    alert("Password: " + password + " copied to clipboard");
   }, [password]);
 
   useEffect(() => {
@@ -70,6 +70,7 @@ function App() {
           </div>
           <div className="flex items-center gap-x-1">
             <input
+              className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500  focus:ring-2 "
               type="checkbox"
               id="number-check"
               defaultChecked={numberAllowed}
@@ -79,6 +80,7 @@ function App() {
           </div>
           <div className="flex items-center gap-x-1">
             <input
+              className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500  focus:ring-2 "
               type="checkbox"
               id="char-check"
               defaultChecked={charAllowed}
