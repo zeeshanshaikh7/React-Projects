@@ -1,6 +1,5 @@
 Here is a `README.md` file text for your React Password Generator application:
 
-```markdown
 # Password Generator
 
 This is a simple password generator application built with React. It allows you to generate a random password based on specified criteria such as length, inclusion of numbers, and special characters. You can also copy the generated password to the clipboard.
@@ -85,4 +84,4 @@ Contributions are welcome! Please open an issue or submit a pull request for any
 
 **Contact:** [My Email](skzeeshan10011@gmail.com)
 
-```
+
