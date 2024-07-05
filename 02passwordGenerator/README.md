@@ -1,4 +1,4 @@
-Here is a `README.md` file text for your React Password Generator application:
+Here is a `README.md` file text for my React Password Generator application:
 
 # Password Generator
 
