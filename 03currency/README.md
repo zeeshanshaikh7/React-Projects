@@ -81,7 +81,7 @@ Fetches the latest currency exchange rates for a given currency.
 
 ## API Used
 - https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/{currency}.json
-- change currency with actual currency like usd or inr
+- change `{currency}` with actual currency like usd or inr
   
 ## Contributing
 
